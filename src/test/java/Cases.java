@@ -5,6 +5,7 @@ public class Cases extends Steps {
     public void adToBasketTest() throws InterruptedException {
         mainPageC();
         goToLogin();
+        deleteAllCookies();
         login();
         search();
         secondPage();

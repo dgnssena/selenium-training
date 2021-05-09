@@ -1,4 +1,5 @@
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 
 
 public class Steps extends BaseMethods {
@@ -119,6 +120,14 @@ public class Steps extends BaseMethods {
         } else {
             System.out.println("Sepetiniz ürün bulunmaktadır.");
         }
+
+
+    }
+
+    public void deleteAllCookies() throws InterruptedException{
+        driver.manage().deleteAllCookies(); //delete all cookies
+        Thread.sleep(7000); //wait 7 seconds to clear cookies.
+
 
     }
 

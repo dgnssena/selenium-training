@@ -18,4 +18,5 @@ public class WebConstant {
     public static By TotalAmount = By.cssSelector("li[class='clearfix total-price-sticky-container']>:nth-child(1)");
     public static By Delete = By.cssSelector("a[title='Sil']");//delete button
     public static By ControlBasket = By.cssSelector("div[class='gg-w-22 gg-d-22 gg-18t-21 gg-m-']>:nth-child(1)");
+    public static By deleteAllCookies = By.xpath  ("//*[@id='__next']/main/section/section/a");
 }
